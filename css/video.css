@@ -1,0 +1,493 @@
+* { margin:0 ; padding:0;}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+*section
+{
+
+    margin: 0 auto;
+
+}
+
+*body
+{
+    margin: 0 auto;
+}
+
+head
+{
+
+    margin: 0 auto;
+    display: flex;
+}
+
+#br
+{
+  color: white;
+}
+
+
+#image312
+{
+
+    width: 50px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 50px;
+    position: fixed
+}
+
+#roww
+{
+    text-align: center;
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    
+}
+
+#giff
+{
+    background-image: url(insta.gif);
+}
+
+#videoo
+{
+width: 2000px;
+    margin: 0 auto;
+
+}
+#x
+{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+   font-family: 'Mulish', sans-serif;
+      -webkit-animation: beginning 2s ease-in-out infinite alternate;
+    -moz-animation: beginning 2s ease-in-out infinite alternate;
+    animation: beginning 2s ease-in-out infinite alternate;
+
+}
+
+
+
+#date
+{
+    
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#date2
+{
+
+    width: 200px;
+    height: 110px;
+}
+
+
+.glitch
+{
+    padding-bottom: 50px;
+}
+
+#mail
+{
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Mulish', sans-serif;
+
+
+}
+
+h1.glitch {
+   
+    text-align: center;
+    color: rgb(223, 200, 200);
+    font-size: 40px;
+    letter-spacing: 8px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+    /*Create overlap*/
+    
+    margin: 0;
+    line-height: 0;
+    
+    /*Animation*/
+  
+    animation: glitch1 10.5s infinite;
+  }
+  
+  h1.glitch:nth-child(2) {
+    color: #b8890a;
+    animation: glitch2 10.5s infinite;
+  }
+  
+  h1.glitch:nth-child(3) {
+    color: #4f7704;
+    animation: glitch3 10.5s infinite;
+  }
+  /*Keyframes*/
+  
+  @keyframes glitch1 {
+    0% {
+      transform: none;
+      opacity: 1;
+    }
+    7% {
+      transform: skew(-0.8deg, -0.9deg);
+      opacity: 0.75;
+    }
+    10% {
+      transform: none;
+      opacity: 1;
+    }
+    27% {
+      transform: none;
+      opacity: 1;
+    }
+    30% {
+      transform: skew(0.8deg, -0.1deg);
+      opacity: 0.75;
+    }
+    35% {
+      transform: none;
+      opacity: 1;
+    }
+    52% {
+      transform: none;
+      opacity: 1;
+    }
+    55% {
+      transform: skew(-1deg, 0.2deg);
+      opacity: 0.75;
+    }
+    50% {
+      transform: none;
+      opacity: 1;
+    }
+    72% {
+      transform: none;
+      opacity: 1;
+    }
+    75% {
+      transform: skew(0.4deg, 1deg);
+      opacity: 0.75;
+    }
+    80% {
+      transform: none;
+      opacity: 1;
+    }
+    100% {
+      transform: none;
+      opacity: 1;
+    }
+  }
+  
+  @keyframes glitch2 {
+    0% {
+      transform: none;
+      opacity: 0.25;
+    }
+    7% {
+      transform: translate(-2px, -3px);
+      opacity: 0.5;
+    }
+    10% {
+      transform: none;
+      opacity: 0.25;
+    }
+    27% {
+      transform: none;
+      opacity: 0.25;
+    }
+    30% {
+      transform: translate(-5px, -2px);
+      opacity: 0.5;
+    }
+    35% {
+      transform: none;
+      opacity: 0.25;
+    }
+    52% {
+      transform: none;
+      opacity: 0.25;
+    }
+    55% {
+      transform: translate(-5px, -1px);
+      opacity: 0.5;
+    }
+    50% {
+      transform: none;
+      opacity: 0.25;
+    }
+    72% {
+      transform: none;
+      opacity: 0.25;
+    }
+    75% {
+      transform: translate(-2px, -6px);
+      opacity: 0.5;
+    }
+    80% {
+      transform: none;
+      opacity: 0.25;
+    }
+    100% {
+      transform: none;
+      opacity: 0.25;
+    }
+  }
+  
+  @keyframes glitch3 {
+    0% {
+      transform: none;
+      opacity: 0.25;
+    }
+    7% {
+      transform: translate(2px, 3px);
+      opacity: 0.5;
+    }
+    10% {
+      transform: none;
+      opacity: 0.25;
+    }
+    27% {
+      transform: none;
+      opacity: 0.25;
+    }
+    30% {
+      transform: translate(5px, 2px);
+      opacity: 0.5;
+    }
+    35% {
+      transform: none;
+      opacity: 0.25;
+    }
+    52% {
+      transform: none;
+      opacity: 0.25;
+    }
+    55% {
+      transform: translate(5px, 1px);
+      opacity: 0.5;
+    }
+    50% {
+      transform: none;
+      opacity: 0.25;
+    }
+    72% {
+      transform: none;
+      opacity: 0.25;
+    }
+    75% {
+      transform: translate(2px, 6px);
+      opacity: 0.5;
+    }
+    80% {
+      transform: none;
+      opacity: 0.25;
+    }
+    100% {
+      transform: none;
+      opacity: 0.25;
+    }
+  }
+
+  #videoo
+  {
+
+
+text-align: center;
+display: flex;
+justify-content: space-between;
+margin-left: 152px;
+
+
+  }
+
+ #video
+ {
+   width: 1200px;
+   margin: 0 auto;
+   display: flex;
+   text-align: center;
+ }
+
+
+ 
+ #text312
+ {
+text-align: center;
+margin-left:0px;
+
+ }
+ .youtube
+ {
+   width: 5654px;
+ }
+
+ #sizeing
+ {
+
+  width: 600px;
+ }
+
+ #reserve
+ {
+  font-weight:bold;
+  font-family: 'Arimo', sans-serif;
+  color: rgb(156, 0, 0);
+  font-size: 15px;
+ 
+
+ }
+
+ #small
+ {
+  color: black;
+  font-size: 15px;
+
+ }
+.duyuru:hover
+{
+  color: red;
+}
+
+.x:hover
+{
+  font-size: 150%;
+ 
+}
+.alert2
+{
+font-size: 15px;
+color: red;
+
+
+}
+
+#bio
+{
+  text-align: center;
+  animation: alternate;
+  -webkit-animation: 2s;
+
+  
+}
+
+#biotext
+{
+
+  text-align: center;
+}
+
+#bioList
+{
+  text-align: center;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+#bio {
+	font-family: "Montserrat";
+	text-align: center;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  border-radius: 20px;
+  border-color: white;
+
+	letter-spacing: 4px;
+}
+
+#bio {
+ 
+	background-image: url(https://media.giphy.com/media/3o7aCPFfNF8uCXO6xa/giphy.gif);
+	background-size: cover;
+	color: transparent;
+
+  font-family: 'Yusei Magic', sans-serif;
+	font-size: 60px;
+  transition-duration: 5s;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+}
+
+#video312 
+{
+	font-family: "Montserrat";
+	text-align: center;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  border-radius: 20px;
+  border-color: white;
+
+	letter-spacing: 6px;
+}
+
+#video312 
+{
+ 
+	background-image: url(https://media.giphy.com/media/3o7aCPFfNF8uCXO6xa/giphy.gif);
+	background-size: cover;
+	color: transparent;
+
+  font-family: 'Yusei Magic', sans-serif;
+	font-size: 80px;
+
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+  margin-right: 800px;
+  
+}
+
+#youvideo
+{
+ 
+ padding-bot: 150px;
+ width: 180%;
+ height: 400px;
+}
+
+.adjusting
+{
+  height: 200px;
+}
+
+#video312
+{
+
+  margin-top: 50px;
+  text-align: center;
+  margin-left: 800px;
+  
+}
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 30%; 
+  height: 0;
+}
+.iframe-container iframe{
+margin-top: 70px;
+  margin-left:300px;
+  position: absolute;
+  text-align: center;
+  top:0;
+  left: 0;
+  width: 50%;
+  height: 70%;
+}
+
+  
